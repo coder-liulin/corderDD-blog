@@ -2,7 +2,7 @@ name: Node.js CI
 on: [push]
 jobs:
   build:
-    runs-on: CentOS Linux release 7.5.1804 (Core)
+    runs-on: CentOS 7.5
     strategy:
       matrix:
         node-version: [12.x]

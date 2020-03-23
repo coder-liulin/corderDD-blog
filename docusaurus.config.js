@@ -4,10 +4,10 @@
  * @Autor: 刘林
  * @Date: 2020-03-12 17:26:34
  * @LastEditors: 刘林
- * @LastEditTime: 2020-03-12 20:57:37
+ * @LastEditTime: 2020-03-20 14:03:14
  */
 module.exports = {
-  title: '代码搬砖工的个人博客',
+  title: '星桦的个人博客',
   tagline: 'The tagline of my site',
   url: 'https://github.com/coder-liulin',
   baseUrl: '/',
@@ -16,7 +16,7 @@ module.exports = {
   projectName: 'pers-blog', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '代码搬砖工',
+      title: '星桦',
       logo: {
         alt: '',
         src: 'img/coderDD.jpg',

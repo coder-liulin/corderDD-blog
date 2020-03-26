@@ -4,13 +4,13 @@
  * @Autor: 刘林
  * @Date: 2020-03-12 17:26:34
  * @LastEditors: 刘林
- * @LastEditTime: 2020-03-23 17:35:34
+ * @LastEditTime: 2020-03-26 10:15:35
  */
 module.exports = {
   title: '星桦的个人博客',
   tagline: 'The tagline of my site',
   url: 'http://www.liulpers.com/',
-  baseUrl: '/blog/.',
+  baseUrl: '/',
   favicon: 'https://user-gold-cdn.xitu.io/2019/4/17/16a2939d7fda9f4a?imageView2/1/w/100/h/100/q/85/format/webp/interlace/1',
   organizationName: 'coder-liulin', // Usually your GitHub org/user name.
   projectName: 'pers-blog', // Usually your repo name.

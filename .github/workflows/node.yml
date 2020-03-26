@@ -19,7 +19,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@3.0.0
         with:
-          ftp-server: ftp://liulpers.com/blog
+          ftp-server: ftp://liulpers.com/blog 
           ftp-username: ${{ secrets.ftp_user }}
           ftp-password: ${{ secrets.ftp_pwd }}
           local-dir: build/

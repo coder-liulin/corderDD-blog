@@ -4,7 +4,7 @@
  * @Autor: 刘林
  * @Date: 2020-03-12 17:26:34
  * @LastEditors: 刘林
- * @LastEditTime: 2020-03-26 10:38:41
+ * @LastEditTime: 2020-12-19 18:34:23
  */
 module.exports = {
   title: '星桦的个人博客',
@@ -23,10 +23,10 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/js/doc1',
           activeBasePath: 'docs',
-          label: '我的收藏',
-          position: 'right',
+          label: '学习日志',
+          position: 'left',
         },
         { to: 'blog', label: '个人博客', position: 'left' },
         {
@@ -39,52 +39,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `渝ICP备20002188号`,
     },
   },
   presets: [
